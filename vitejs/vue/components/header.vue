@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="header-pc">
         Laravel9VueComponentHeader
     </div>
 </template>

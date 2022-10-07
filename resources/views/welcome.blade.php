@@ -3,14 +3,14 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <title>Laravel</title>
+        @vite('vitejs/scss/app.scss')
     </head>
     <body class="antialiased">
         <div id="app">
             <header-pc></header-pc>
             <test-component></test-component>
         </div>
-        @vite('resources/js/app.js')
+        @vite('vitejs/vue/app.js')
     </body>
 </html>
