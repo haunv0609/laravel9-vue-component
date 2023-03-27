@@ -1,8 +1,8 @@
 import axios from 'axios';
 
-// let token = localStorage.getItem('token');
+window.axios = axios;
+
 axios.defaults.baseURL = '/api';
-// axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
 
 import { apiGet, apiPost, apiPut, apiDelete } from './api';
 window.apiGet = apiGet;
